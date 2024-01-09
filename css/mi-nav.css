@@ -14,7 +14,7 @@ mi-nav ul {
 }
 
 mi-nav ul li {
-  margin: 0 1rem; /* Espaciado entre elementos de la lista */
+  margin: 0.5rem; /* Espaciado entre elementos de la lista */
 }
 
 mi-nav a {
