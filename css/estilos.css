@@ -1,29 +1,26 @@
-/* Estilos generales */
 @import "mi-nav.css";
 @import "mi-footer.css";
 @import "listas.css";
 
 :root {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Añadido un conjunto más amplio de fuentes sans-serif */
+  font-family: sans-serif;
   --col-active: #4646462c;
   --color-header: white;
   --colorMiNav: white;
 }
 
 body {
-  max-width: 800px; /* Aumentado el ancho máximo para una mejor lectura */
+  max-width: 640px;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
-/* Estilos del encabezado */
 header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  background-color: var(--color-header);
-  padding: 0.5rem;
-  z-index: 1000; /* Añadido índice Z para asegurar que el encabezado esté encima del contenido al hacer scroll */
+  background-color:
+    var(--color-header);
 }
 
 .herramientas {
@@ -39,25 +36,21 @@ header {
 
 header input {
   flex-grow: 1;
-  padding: 0.3rem; /* Añadido un pequeño relleno al campo de entrada */
 }
 
 h1 {
-  margin: 1rem 0;
-  font-size: 1.5rem; /* Aumentado el tamaño del encabezado principal */
+  margin: 0.5rem 0;
 }
 
 figure img {
-  width: 100%; /* Cambiado a ancho del 100% para imágenes responsivas */
-  height: auto; /* Añadido para mantener la proporción al cambiar el ancho */
+  max-width: 100%;
 }
 
-/* Estilos para leyendas y etiquetas de párrafos */
 legend,
 p label {
   display: block;
   font-weight: bold;
-  font-size: 0.8rem; /* Ajustado el tamaño de fuente para una mejor legibilidad */
+  font-size: 0.7rem;
 }
 
 p label>* {
@@ -66,5 +59,4 @@ p label>* {
   font-size: 1rem;
   box-sizing: border-box;
   width: 100%;
-  margin-top: 0.5rem; /* Añadido un pequeño espacio superior entre elementos */
 }
