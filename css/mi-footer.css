@@ -1,6 +1,10 @@
+/* mi-footer.css */
+
 mi-footer {
   display: block;
   margin: 1rem;
   font-size: small;
   text-align: center;
+  color: #ffffff; /* Color del texto en el pie de página */
 }
+

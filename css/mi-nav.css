@@ -1,7 +1,8 @@
+/* mi-nav.css */
+
 mi-nav {
   display: block;
-  background-color:
-    var(--colorMiNav);
+  background-color: var(--colorMiNav);
 }
 
 mi-nav ul {
@@ -16,4 +17,6 @@ mi-nav ul {
 
 mi-nav ul li {
   margin: 0.5rem;
+  color: #ffffff; /* Color del texto en la navegación */
 }
+

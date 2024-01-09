@@ -1,3 +1,5 @@
+/* listas.css */
+
 .lista,
 .checks {
   list-style-type: none;
@@ -15,21 +17,29 @@
 .fila {
   display: block;
   padding: 1rem;
+  background-color: #2d2d2d; /* Color de fondo de las filas */
+  border-radius: 8px; /* Bordes redondeados para las filas */
+  margin-bottom: 0.5rem; /* Espaciado entre filas */
+}
+
+.fila:hover {
+  background-color: rgba(255, 136, 0, 0.2); /* Color de fondo al pasar el ratón sobre la fila */
 }
 
 a.fila:active {
-  background-color:
-    var(--col-active);
+  background-color: var(--col-active);
 }
 
 .primario {
   display: block;
   font-size: 1rem;
+  color: #ffffff; /* Color del texto principal */
 }
 
 .secundario {
   display: block;
   font-size: 0.75rem;
+  color: #888888; /* Color del texto secundario */
 }
 
 label.fila,
@@ -53,9 +63,12 @@ label.fila,
 
 .marco img {
   width: 100%;
+  border-radius: 8px; /* Bordes redondeados para las imágenes en el marco */
 }
 
 .vacio {
   font-size: 0.75rem;
   text-align: center;
+  color: #888888; /* Color del texto en caso de lista vacía */
 }
+
