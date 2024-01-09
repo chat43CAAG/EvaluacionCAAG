@@ -1,17 +1,6 @@
 mi-footer {
   display: block;
-  background-color: #333; /* Color de fondo para el footer */
-  color: #fff; /* Color del texto en el footer */
-  padding: 1rem;
+  margin: 1rem;
   font-size: small;
   text-align: center;
-}
-
-mi-footer a {
-  color: #ffd700; /* Color de los enlaces en el footer */
-  text-decoration: none;
-}
-
-mi-footer a:hover {
-  text-decoration: underline; /* Subraya los enlaces al pasar el ratón sobre ellos */
 }
