@@ -39,11 +39,11 @@ async function guarda(evt) {
     const formData =
       new FormData(forma);
     const matricula = getString(
-        formData, "Titulo").trim();  
-    const nombre = getString(formData, "Genero").trim();
-    const telefono = getString(formData, "Empresa").trim();
-    const grupo = getString(formData, "Clasificacion").trim();
-    const fecha = getString(formData, "Fecha de lanzamiento").trim();
+        formData, "matricula").trim();  
+    const nombre = getString(formData, "nombre").trim();
+    const telefono = getString(formData, "telefono").trim();
+    const grupo = getString(formData, "grupo").trim();
+    const fecha = getString(formData, "fecha").trim();
     /**
      * @type {
         import("./tipos.js").

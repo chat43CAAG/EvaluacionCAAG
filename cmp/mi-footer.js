@@ -4,7 +4,7 @@ class MiFooter
     this.innerHTML = /* html */
       `<p>
         &copy; 2023
-        Cristian Alexis Alcantar García.
+        Ricardo Armando Machorro Reyes.
       </p>`;
   }
 }

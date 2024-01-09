@@ -1,30 +1,19 @@
 mi-nav {
   display: block;
-  background-color: var(--colorMiNav);
-  padding: 10px; /* Añade espacio interno para mejorar el aspecto visual */
+  background-color:
+    var(--colorMiNav);
 }
 
 mi-nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: wrap;
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
 mi-nav ul li {
-  margin: 0 1rem; /* Espaciado entre elementos de la lista */
-}
-
-mi-nav a {
-  text-decoration: none; /* Elimina el subrayado de los enlaces */
-  color: #fff; /* Color del texto para resaltar en el fondo */
-  font-weight: bold; /* Texto en negrita para mayor visibilidad */
-  font-size: 16px; /* Tamaño de fuente personalizado */
-  transition: color 0.3s ease; /* Agrega una transición suave al color del texto */
-}
-
-mi-nav a:hover {
-  color: #ffd700; /* Cambia el color del texto al pasar el ratón sobre los enlaces */
+  margin: 0.5rem;
 }
