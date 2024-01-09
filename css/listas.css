@@ -1,3 +1,4 @@
+/* Estilo para listas y checks */
 .lista,
 .checks {
   list-style-type: none;
@@ -12,50 +13,57 @@
   margin: 0;
 }
 
+/* Estilo para filas */
 .fila {
-  display: block;
+  display: flex;
+  justify-content: space-between; /* Alinea los elementos alrededor */
+  align-items: center; /* Alinea verticalmente al centro */
   padding: 1rem;
+  border: 1px solid #ccc; /* Agrega un borde para separar visualmente las filas */
+  margin-bottom: 0.5rem; /* Espaciado inferior entre filas */
 }
 
-a.fila:active {
-  background-color:
-    var(--col-active);
+.fila:hover {
+  background-color: #f0f0f0; /* Cambia el color de fondo al pasar el ratón sobre la fila */
 }
 
+/* Estilo para enlaces dentro de la fila */
+.fila a:active {
+  background-color: var(--col-active);
+}
+
+/* Estilos para texto primario y secundario */
 .primario {
-  display: block;
   font-size: 1rem;
 }
 
 .secundario {
-  display: block;
   font-size: 0.75rem;
+  color: #666; /* Color del texto secundario */
 }
 
-label.fila,
+/* Estilos para filas con imágenes */
 .fila.conImagen {
-  display: flex;
   gap: 1rem;
 }
 
-.fila.conImagen {
-  align-items: initial;
-}
-
 .fila .texto {
-  display: block;
+  flex-grow: 1; /* Hace que el texto ocupe todo el espacio disponible */
 }
 
 .fila .marco {
-  display: block;
   width: 30%;
+  flex-shrink: 0; /* Evita que la imagen se reduzca demasiado en pantallas pequeñas */
 }
 
 .marco img {
   width: 100%;
+  border-radius: 5px; /* Agrega bordes redondeados a las imágenes */
 }
 
+/* Estilo para texto de celda vacía */
 .vacio {
   font-size: 0.75rem;
   text-align: center;
+  color: #999; /* Color de texto para celdas vacías */
 }
